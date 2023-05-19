@@ -1,0 +1,23 @@
+.city-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  &-wrapper {
+    border: 1px solid #7769ff;
+    border-radius: 18px;
+    padding: 20px;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__title-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
